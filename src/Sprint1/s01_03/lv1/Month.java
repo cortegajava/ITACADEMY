@@ -1,9 +1,6 @@
-package Sprint1.s01_03;
+package Sprint1.s01_03.lv1;
 
-
-import helper.Printable;
-
-public class Month implements Printable {
+public class Month {
     private MONTH_NAME name;
 
     public enum MONTH_NAME {
@@ -12,8 +9,8 @@ public class Month implements Printable {
     private static final MONTH_NAME[] MONTH_NAME_ARR = MONTH_NAME.values();
 
     @Override
-    public MONTH_NAME getValue() {
-        return name;
+    public String toString() {
+        return name.toString();
     }
 
     public void setValue(MONTH_NAME name) {

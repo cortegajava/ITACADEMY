@@ -1,4 +1,4 @@
-package Sprint1.s01_01;
+package Sprint1.s01_01.lv1;
 
 class Car {
     private static final String brand = "car_brand";

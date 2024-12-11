@@ -1,4 +1,4 @@
-package Sprint1.s01_01;
+package Sprint1.s01_01.lv1;
 
 public abstract class Instrument {
     private String name;
