@@ -3,7 +3,6 @@ package Sprint1.s01_03.lv1;
 import java.io.FileWriter;
 import java.util.*;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.Random;
 
 
