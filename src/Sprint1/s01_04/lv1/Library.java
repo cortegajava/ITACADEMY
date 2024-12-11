@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Library {
-    private ArrayList<Book> books;
+    private final ArrayList<Book> books;
 
     public Library() {
         books = new ArrayList<>();
@@ -25,10 +25,8 @@ public class Library {
         int i = 0;
         do {
             i = findBook(bookTitle, i);
-            books.remove(i);
+            if (i > -1) books.remove(i);
         } while (i > -1);
-
-        books.remove(findBook(bookTitle, 0));
     }
 
     /**
@@ -57,7 +55,7 @@ public class Library {
 
     /**
      *   Returns index that matches with a book by the title.
-     *   @param i: index to start looking from, used to find multiple books.
+     *   @param i: index to start looking from, can be used to find multiple books efficiently.
      **/
     public int findBook(String title, int i) {
         for(; i < books.size(); i++) {
