@@ -1,6 +1,5 @@
 package Sprint1.s01_04.lv1;
 
-import java.util.Iterator;
 import java.util.stream.Collectors;
 import java.util.ArrayList;
 import java.util.List;
