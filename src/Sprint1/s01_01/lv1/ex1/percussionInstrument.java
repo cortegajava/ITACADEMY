@@ -1,11 +1,11 @@
-package Sprint1.s01_01.lv1;
+package Sprint1.s01_01.lv1.ex1;
 
-class percussionInstrument extends Instrument {
+public class percussionInstrument extends Instrument {
     {
         System.out.println("Loading: percussionInstrument.");
     }
 
-    percussionInstrument(String name, float price) {
+    public percussionInstrument(String name, float price) {
         super(name, price);
     }
 

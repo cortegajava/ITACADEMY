@@ -1,4 +1,4 @@
-package Sprint1.s01_01.lv1;
+package Sprint1.s01_01.lv1.ex1;
 
 public abstract class Instrument {
     private String name;
@@ -7,7 +7,7 @@ public abstract class Instrument {
     static {
         System.out.println("Loading: Instrument abstract class.");
     }
-    Instrument(String name, float price) {
+    public Instrument(String name, float price) {
         this.name = name;
         this.price = price;
     }

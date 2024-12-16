@@ -1,5 +1,10 @@
 package Sprint1.s01_01.lv1;
 
+import Sprint1.s01_01.lv1.ex1.percussionInstrument;
+import Sprint1.s01_01.lv1.ex1.stringInstrument;
+import Sprint1.s01_01.lv1.ex1.windInstrument;
+import Sprint1.s01_01.lv1.ex2.Car;
+
 public class Main {
     public static void main(String[] args) {
 

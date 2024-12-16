@@ -1,5 +1,9 @@
 package Sprint1.s01_02.lv1;
 
+import Sprint1.s01_02.lv1.ex1.Product;
+import Sprint1.s01_02.lv1.ex1.Sale;
+import Sprint1.s01_02.lv1.ex1.emptySaleException;
+
 import java.util.ArrayList;
 
 public class Main {

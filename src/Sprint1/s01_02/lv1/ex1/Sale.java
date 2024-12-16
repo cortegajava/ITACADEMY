@@ -1,4 +1,4 @@
-package Sprint1.s01_02.lv1;
+package Sprint1.s01_02.lv1.ex1;
 
 import java.util.ArrayList;
 

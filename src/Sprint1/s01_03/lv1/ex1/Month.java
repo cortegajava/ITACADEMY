@@ -1,4 +1,4 @@
-package Sprint1.s01_03.lv1;
+package Sprint1.s01_03.lv1.ex1;
 
 public class Month {
     private MONTH_NAME name;

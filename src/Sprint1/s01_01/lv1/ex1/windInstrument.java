@@ -1,11 +1,11 @@
-package Sprint1.s01_01.lv1;
+package Sprint1.s01_01.lv1.ex1;
 
-class windInstrument extends Instrument {
+public class windInstrument extends Instrument {
     {
         System.out.println("Loading: windInstrument.");
     }
 
-    windInstrument(String name, float price) {
+    public windInstrument(String name, float price) {
         super(name, price);
     }
 
