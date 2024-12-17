@@ -1,8 +1,8 @@
 package Sprint1.s01_01.lv1.ex1;
 
 public abstract class Instrument {
-    private String name;
-    private float price;
+    private final String name;
+    private final float price;
 
     static {
         System.out.println("Loading: Instrument abstract class.");
