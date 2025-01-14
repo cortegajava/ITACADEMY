@@ -1,15 +1,11 @@
 package Sprint1.s01_06.lv3;
 
-public class Generic implements Telephone {
-    @Override
-    public void call() {
-
+public class Generic {
+    public static <T extends Telephone> void genericT(T telephone){
+        telephone.call();
+        // smartphone can't take Photos from genericT
     }
-
-    public void generic1(){
-
-    }
-    public void generic2(){
-
+    public static <S extends Smartphone> void genericS(S smartphone){
+        smartphone.call();
     }
 }
