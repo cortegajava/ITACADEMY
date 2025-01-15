@@ -2,7 +2,6 @@ package Sprint1.s01_08.lv3;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Main {
 

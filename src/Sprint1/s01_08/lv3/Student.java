@@ -1,10 +1,10 @@
 package Sprint1.s01_08.lv3;
 
 public class Student {
-    private String name;
-    private int age;
-    private String _class;
-    private float GPA;
+    private final String name;
+    private final int age;
+    private final String _class;
+    private final float GPA;
 
     public Student(String name, int age, String _class, float GPA) {
         this.name = name;
