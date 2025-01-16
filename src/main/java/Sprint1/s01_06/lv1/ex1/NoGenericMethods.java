@@ -1,4 +1,4 @@
-package Sprint1.s01_06.lv1;
+package Sprint1.s01_06.lv1.ex1;
 
 public class NoGenericMethods {
     private Object param1;

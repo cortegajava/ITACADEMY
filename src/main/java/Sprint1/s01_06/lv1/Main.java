@@ -1,5 +1,9 @@
 package Sprint1.s01_06.lv1;
 
+import Sprint1.s01_06.lv1.ex1.NoGenericMethods;
+import Sprint1.s01_06.lv1.ex2.GenericMethods;
+import Sprint1.s01_06.lv1.ex2.Person;
+
 public class Main {
     public static void main(String[] args) {
         // TODO: revise ex1, separate lv into exercises

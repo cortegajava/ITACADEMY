@@ -1,4 +1,4 @@
-package Sprint1.s01_06.lv1;
+package Sprint1.s01_06.lv1.ex2;
 
 public class GenericMethods {
     public static <T> void printTriple(T... params) {
